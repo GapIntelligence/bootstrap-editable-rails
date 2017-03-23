@@ -5560,8 +5560,8 @@ Editableform based on Twitter Bootstrap 3
 									element = this.element.find('input');
 								if (element)
 									element.val("").change();
-								this._trigger('changeDate');
                                 if (this.date !== null){
+                                  this._trigger('changeDate');
                                   this.date = null;
                                   this.picker.find('.active').removeClass('active');
                                 }
